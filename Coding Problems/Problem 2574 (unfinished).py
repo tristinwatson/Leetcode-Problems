@@ -3,10 +3,6 @@ nums2 = [1]
 
 class Solution(object):
     def leftRigthDifference(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
         answer = []
         i = 0
         leftSum = 0

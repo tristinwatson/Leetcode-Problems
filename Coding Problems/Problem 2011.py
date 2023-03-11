@@ -3,10 +3,6 @@ operations2 = ["++X","++X","X++"]
 
 class Solution(object):
     def finalValueAfterOperations(self, operations):
-        """
-        :type operations: List[str]
-        :rtype: int
-        """
         i = 0
         ans = 0
         while i != len(operations):

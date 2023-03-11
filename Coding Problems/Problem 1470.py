@@ -3,11 +3,6 @@ n = 4
 
 class Solution(object):
     def shuffle(self, nums, n):
-        """
-        :type nums: List[int]
-        :type n: int
-        :rtype: List[int]
-        """
         ans = []
         i = 0
         n = int(len(nums) / 2)

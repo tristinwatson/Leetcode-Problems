@@ -2,10 +2,6 @@ nums = [0,2,1,5,3,4]
 
 class Solution(object):
     def buildArray(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
         self.nums = nums
         ans = []
         i = 0

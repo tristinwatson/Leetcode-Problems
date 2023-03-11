@@ -2,10 +2,6 @@ n = "27346209830709182346"
 
 class Solution(object):
     def minPartitions(self, n):
-        """
-        :type n: str
-        :rtype: int
-        """
         i = 0
         ans = 0
         while i < len(n):
